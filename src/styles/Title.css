@@ -1,0 +1,20 @@
+.header {
+    background:  #03396c;
+    height: 200px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    color:  #e7eff6;
+    font-size: 3rem;
+  }
+
+  .header h3 {
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    color:  #b3cde0;
+    font-size: 1rem;
+}

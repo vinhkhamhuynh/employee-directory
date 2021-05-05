@@ -1,5 +1,5 @@
 import React from "react";
-import HelloDiv from "./components/HelloDiv";
+import TitleDiv from "./components/Title";
 import Navbar from "./components/Navbar";
 
 
@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="container">
-      <HelloDiv/>
+      <TitleDiv/>
       <Navbar />
     </div>
 
