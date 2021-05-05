@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import EmpAPI from '../utils/EmpAPI';
 import EmpDetails from './EmpDetails';
+import SearchBar from './SearchBar';
 
 
 class EmpInfo extends Component {
@@ -21,10 +22,25 @@ class EmpInfo extends Component {
             this.setState({ list: res.data.results }))
         .catch(err => console.log(err));
     };
-    
+
+    handleInputChange = (e) => {
+        this.setState({search:e.target.value, isFiltered: true});
+    };
+
+    handleSearch = (e) => {
+        e.preventDefault();
+    }
+
     render() {
         return (
+       
             <div>
+                <SearchBar
+                search={this.state.search}
+                handleInputChange={this.handleInputChange}
+                handleSearch={this.handleSearch}
+                />
+
                  <div className="mt-4 table-responsive">
            <table className="table table-striped">
 
