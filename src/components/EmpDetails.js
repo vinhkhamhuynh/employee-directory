@@ -2,6 +2,7 @@
 import React from 'react';
 
 
+
 function EmpDetails(props) {
     return (
         <tr key={props.id}>

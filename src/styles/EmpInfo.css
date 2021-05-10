@@ -1,0 +1,16 @@
+.sortBtn {
+    cursor:pointer;
+}
+
+.sortBtn:hover{
+    background-color: green;
+    color:white
+   
+}
+
+
+
+
+
+
+

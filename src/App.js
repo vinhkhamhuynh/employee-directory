@@ -1,6 +1,6 @@
 import React from "react";
 import TitleDiv from "./components/Title";
-import SearchBar from "./components/SearchBar";
+
 import Wrapper from "./components/Wrapper"
 import EmpInfo from "./components/EmpInfo"
 
