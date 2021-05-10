@@ -7,7 +7,7 @@ function TitleDiv() {
             <h1>
                 Employee Directory
             </h1>
-            <h3>Click on carrots to filter by heading or use the searcfh box to narrow your results. </h3>
+            <h3>Click on Email to sort by order or use the Search Box to narrow your results. </h3>
         </div>
     );
 };
