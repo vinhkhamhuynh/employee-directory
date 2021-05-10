@@ -28,8 +28,7 @@ npm start
 
 These are the technologies and languages use for this project: React, bootstrap , axios
 
-Deployed Github Link:   
-
+Deployed Github Link:   https://vinhkhamhuynh.github.io/employee-directory/
 Github Repository Link: https://github.com/vinhkhamhuynh/employee-directory
   
 ![budget tracker screenshot](./public/screenshot.PNG)
